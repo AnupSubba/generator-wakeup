@@ -1,0 +1,33 @@
+{
+  "name": "generator-wakeup",
+  "version": "1.0.0",
+  "description": "Modern java framework + AngularJS + DB",
+  "keywords": [
+    "yeoman-generator",
+    "Java",
+    "Spring",
+    "Spring Security",
+    "JPA",
+    "Hibernate",
+    "AngularJS",
+    "Twitter Bootstrap"
+  ],
+  "homepage": "http://www.wakeup.org.in",
+  "bugs": {
+    "url": "https://github.com/AnupSubba/generator-wakeup/issues"
+  },
+  "author": {
+    "name": "Anup Subba",
+    "email": ["anupsubba@hotmail.com","support@wakeup.org.in"],
+    "url": "https://github.com/AnupSubba"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnupSubba/generator-wakeup.git"
+  },
+  "files": [
+    "app"
+  ],
+  "license": "GPU"
+}
