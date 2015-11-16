@@ -1,2 +1,2 @@
 # generator-wakeup
-Modern latest java framework + AngularJS + DB
+Modern java framework + AngularJS + DB
