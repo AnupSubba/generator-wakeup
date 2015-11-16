@@ -1,6 +1,6 @@
 {
   "name": "generator-wakeup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modern java framework + AngularJS + DB",
   "keywords": [
     "yeoman-generator",
@@ -29,5 +29,5 @@
   "files": [
     "app"
   ],
-  "license": "GPU"
+  "license": "Apache-2.0"
 }
