@@ -1,1 +1,25 @@
-Initial file
+Creates application base
+========================
+
+Spring
+------
+pom.xml
+readme.md
+.gitignore
+.yo-rc.json
+src/main/java/package/configs/DatabaseConfig.java
+src/main/java/package/domain/Hello.java
+src/main/java/package/repository/HelloRepository.java
+src/main/java/package/rest/HelloRest.java
+src/main/java/package/Application.java
+src/main/resources/public/index.html
+src/main/resources/public/hello.html
+src/main/resources/application.properties
+src/main/resources/banner.txt
+src/main/webapp/lib/bootstrap.min.css
+src/main/webapp/lib/bootstrap.min.js
+src/main/webapp/lib/jquery.min.js
+
+
+
+

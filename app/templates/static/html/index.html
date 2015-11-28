@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= applicationName %></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="lib/bootstrap.min.css">
+  <script src="lib/jquery.min.js"></script>
+  <script src="lib/bootstrap.min.js"></script>
+  <style>
+  .panel-default > .panel-heading {
+    color: #522222;
+    background-color: #AEDADA;
+    border-color: #23928D;
+  }  
+  </style>
+</head>
+<body>
+    
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    <!--  <a class="navbar-brand" href="http://wakeup.org.in"><img alt="Brand" src="..."></a>-->
+      <a class="navbar-brand" href="http://wakeup.org.in" target="_blank">Wakeup</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">API <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="hello.html">Hello</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search" action="http://www.google.com/search" method="get">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Google search..." name="q">
+        </div>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="container text-center">
+     <div class="panel panel-default">
+        <div class="panel-heading"><b>About Wakeup Generator</b></div>
+        <div class="panel-body">
+            <div>
+                Wakeup is a <a href="http://yeoman.io/" target="_blank">Yoeman Generator</a>.<br/>
+                </br/>My goal is to generate for you a rest API by different modern Java framework. Use rest client for API.
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><b>Sample & Sources</b></div>
+        <div class="panel-body">
+            <div>
+                You can checkout a sample generated application <a href="https://github.com/AnupSubba/wakeup-samples" target="_blank">here</a>.<br/>
+                <b>Wakeup</b> is Open Source, and all development is done on <a href="https://github.com/AnupSubba/generator-wakeup" target="_blank">GitHub</a> and ticket
+                <a href="https://github.com/AnupSubba/generator-wakeup/issues" target="_blank">Issue</a>.
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><b>Follow me on</b></div>
+        <div class="panel-body">
+            <div>
+                <a href="https://www.facebook.com/wakeupguysss" target="_blank">Facebook</a>&nbsp;|&nbsp;
+                <a href="http://wakeup.org.in" target="_blank">Blogger</a>&nbsp;|&nbsp;
+                <a href="https://github.com/AnupSubba/generator-wakeup" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div id="footer">
+  <div class="container">
+      <p class="muted credit">&copy; <a href="http://wakeup.org.in" target="_blank">Wakeup 2015</a> author <a href="https://github.com/AnupSubba" target="_blank">Anup Subba</a></p>
+  </div>
+</div>
+    
+</body>
+</html>
