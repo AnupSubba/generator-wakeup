@@ -10,6 +10,7 @@ util.inherits(Generator, yeoman.generators.Base);
 util.inherits(Generator, yeoman.generators.NamedBase);
 
 Generator.prototype.springFramework = function (packageName) {
+    this.currentDT = new Date();
     this.template('spring/src/main/java/package', 'src/main/java/' + packageName , this, {});
     this.template('spring/src/main/resources', 'src/main/resources', this, {});
     this.template('static/html', 'src/main/resources/public', this, {});

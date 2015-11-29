@@ -1,0 +1,13 @@
+Creates entity
+========================
+
+Spring-Entity
+-------------
+src/main/java/package/domain/Foo.java
+src/main/java/package/repository/FooRepository.java
+src/main/java/package/rest/FooRest.java
+src/main/resources/public/foo.html
+
+
+
+

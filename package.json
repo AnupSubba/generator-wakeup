@@ -1,6 +1,6 @@
 {
   "name": "generator-wakeup",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "Modern java rest frameworks",
   "keywords": [
     "yeoman-generator",
@@ -22,11 +22,20 @@
     "url": "https://github.com/AnupSubba/generator-wakeup.git"
   },
   "files": [
-    "app"
+    "app",
+    "entity",
+    ".gitignore",
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "util.js"
   ],
   "dependencies": {
     "chalk": "1.0.0",
     "ejs": "2.3.4",
+    "html-wiring": "1.1.0",
+    "shelljs": "0.5.0",
+    "lodash": "3.10.0",
     "underscore.string": "3.2.0",
     "yeoman-generator": "0.20.3",
     "yo": "1.4.8"

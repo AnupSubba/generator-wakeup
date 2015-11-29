@@ -16,4 +16,10 @@ Go on the project's root folder, then type:
 
     $ mvn spring-boot:run
 
+### Run application in brower
+
+Go to the browser and run
+
+    $ http://localhost:1234
+
 
