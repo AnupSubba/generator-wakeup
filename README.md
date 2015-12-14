@@ -17,10 +17,10 @@ Full documentation and information is available on my website at [http://wakeup.
 
 ## How to use wakeup generator
 ### Type in command prompt
-`Create application`
+`For application`
 
 **yo wakeup** and select the option
 
-`Create entity`
+`For entity`
 
 **yo wakeup:entity Foo** and select the option
