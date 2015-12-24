@@ -45,7 +45,7 @@ public class <%= entityClass %>Rest {
                     consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<<%= entityClass %>> update<%= entityClass %>(@RequestBody final <%= entityClass %> <%= entityInstance %>) throws URISyntaxException {
         log.debug("REST request to update <%= entityClass %> : {}", <%= entityInstance %>);
-        if (<%= entityInstance %>.getId() == null) return ResponseEntity.badRequest().header("Failure", "An update entity must have an ID").body(null);
+        if (<%= entityInstance %>.getId() == null) return ResponseEntity.badRequest().header("Failure", "An update <%= entityInstance %> must have an ID").body(null);
         <%= entityClass %> result = <%= entityInstance %>Repository.save(<%= entityInstance %>);
         return ResponseEntity.ok().body(result);
     }

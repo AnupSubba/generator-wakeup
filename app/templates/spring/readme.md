@@ -16,7 +16,7 @@ Go on the project's root folder, then type:
 
     $ mvn spring-boot:run
 
-### Run application in brower
+### Run application in browser
 
 Go to the browser and run
 
