@@ -24,6 +24,7 @@
   "files": [
     "app",
     "entity",
+    "stub",
     ".gitignore",
     "LICENSE",
     "package.json",

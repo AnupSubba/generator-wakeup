@@ -24,3 +24,7 @@ Full documentation and information is available on my website at [http://wakeup.
 `For entity`
 
 **yo wakeup:entity Foo** and select the option
+
+`For stub`
+
+**yo wakeup:stub Foo** and select the option
